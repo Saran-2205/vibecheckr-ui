@@ -20,6 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${rubik.variable} h-full antialiased`}>
+      <head>
+        <meta name="google-site-verification" content="bW4LMQQZR0EJiGXWMOvv-pd1vkWlGMl3BuQGc2ZDJyI" />
+      </head>
       <body
         className="min-h-full flex flex-col text-center overflow-x-hidden selection:bg-yellow-400 selection:text-black"
         style={{ fontFamily: "'Rubik', sans-serif" }}
